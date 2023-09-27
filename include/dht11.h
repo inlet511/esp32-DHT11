@@ -37,6 +37,8 @@ struct dht11_reading {
     int status;
     int temperature;
     int humidity;
+    int temperature_decimal;
+    int humidity_decimal;
 };
 
 void DHT11_init(gpio_num_t);
